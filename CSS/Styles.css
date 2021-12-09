@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../Images/Header.jpg);
+    height: 250px;
+    color:white;
+    padding-left: 2rem;
+    padding-top:2rem;
+}
+
+main h1{
+    color:cadetblue;
+    padding: 1rem 0 0 3%;
+}
+
+main h2 {
+    color:darkred;
+    padding: 1rem 0 0 3%;
+}
+
+main p {
+    padding: .2rem 0 0 2%;
+    line-height: 150%;
+}
+
+footer{
+    background-color:lightblue;
+    color:black;
+    text-align: center;
+
+}
